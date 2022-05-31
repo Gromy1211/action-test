@@ -18,5 +18,5 @@ new_image.save('new_image1.png')
 dataset_client.create_draft("draft-2")
 
 segment_client = dataset_client.get_segment("images") 
-segment_client.upload_data(Data('new_image1.png'))
+segment_client.upload_data(Data('new_image2.png'))
 dataset_client.commit("add new")
