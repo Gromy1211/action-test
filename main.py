@@ -14,7 +14,7 @@ from PIL import Image
 image = Image.open(sample_data.open()).convert("RGB")
 new_image = image.resize((400, 400))
 
-new_image.save('new_image1.png')
+new_image.save('new_image2.png')
 dataset_client.create_draft("draft-2")
 
 segment_client = dataset_client.get_segment("images") 
